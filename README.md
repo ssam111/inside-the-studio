@@ -1,74 +1,54 @@
 # Inside the Studio
 
-**Project:** Digital Garden – muziekproductie  
-**Repository:** https://github.com/ssam111/inside-the-studio  
-**Website:** https://inside-the-studio.nl
+Digital Garden over muziekproductie bij CMD HvA. Dit is de Learning Log voor week 0 en 1.
 
-## Sprint 0 – Getting a grip
+- [Website](https://inside-the-studio.nl)
+- [GitHub-repository](https://github.com/ssam111/inside-the-studio)
 
-Dit document is de Learning Log. De onderdelen hieronder helpen om de voortgang bij te houden. Vul de persoonlijke antwoorden en reflecties zelf in aan de hand van wat je daadwerkelijk hebt gedaan.
+## Week 0 · 9–13 november 2026
 
-### Technische voortgang
+### Project opzetten
 
-- [x] Een eigen GitHub-repository voor het CMD-model beschikbaar.
-- [x] Een eigen domeinnaam gekozen: `inside-the-studio.nl`.
-- [x] Een `CNAME`-bestand met de domeinnaam staat in deze repository.
-- [x] DNS-instellingen voor de domeinnaam bij TransIP aangepast.
-- [x] VSCodium op de Mac geïnstalleerd en het project lokaal geopend.
-- [x] De repository lokaal gecloned naar `~/CMD-projecten/inside-the-studio`.
-- [ ] Een eigen wijziging vanuit VSCodium committen en pushen (nog controleren).
-- [ ] Zelftest op DLO uitvoeren en resultaten noteren.
-- [ ] Deep-dives op DLO kiezen/volgen en geleerde punten noteren.
-- [ ] Bewijsbeelden toevoegen van de eigen stappen, voor zover relevant.
+De GitHub-repository is lokaal gekloond en geopend in VSCodium. Het domein `inside-the-studio.nl` is bij TransIP ingesteld met vier A-records voor GitHub Pages en staat in [CNAME](CNAME).
 
-### Learning Log – 18 november 2026
+De lokale kopie liep één commit achter op GitHub. Op 19 november is `main` bijgewerkt naar commit `7ced313`. De uitgebreide lokale Learning Log en het bestaande screenshot zijn daarbij bewaard. Een eigen commit en push vanuit VSCodium moeten nog worden gecontroleerd.
 
-**Wat heb ik zelf gedaan?**
+### Bewijs van de startpagina
 
-_Vul hier je eigen beschrijving in van de stappen die je echt hebt uitgevoerd._
+Het CMD-startmodel met voorbeeldtekst en de webring onderaan.
 
-**Wat heb ik geleerd?**
+![Screenshot van het CMD-startmodel](readme-images/Scherm%C2%ADafbeelding%202026-11-18%20om%2013.29.55.png)
 
-_Vul hier in wat je nu begrijpt over GitHub, een domeinnaam, DNS, GitHub Pages en VSCodium._
+### Overige opdrachten
 
-**Wat ging lastig en hoe heb ik het opgelost?**
+| Opdracht | Stand van zaken |
+| --- | --- |
+| Zelftest | Resultaat en eigen leerpunt ontbreken nog. |
+| Vier practica en huiswerk | Welke sessies je hebt gedaan en welk werk daarbij hoort, is nog niet bevestigd. |
+| Schetsoefening | Foto van de uitgevoerde oefening ontbreekt nog. |
+| Checkout | Eigen antwoorden ontbreken nog. De vragen gaan over je keuze voor GitHub, je domeinkoppeling en hoe je wijzigingen publiceert. |
+| Reflectie | Eigen terugblik op de installatie, wat je lastig vond en wat je nu zelfstandig kunt, ontbreekt nog. |
 
-_Beschrijf bijvoorbeeld het probleem dat je zelf tegenkwam bij inloggen, clonen of synchroniseren, en hoe je het hebt aangepakt._
+- [Sprint 0 in DLO](https://dlo.mijnhva.nl/d2l/le/lessons/759393/units/3130845)
 
-**Bewijs / screenshots**
+## Week 1 · 16–20 november 2026
 
-_Voeg eigen screenshots toe aan de map `readme-images/` en verwijs er hiernaar met Markdown. Let op: geen wachtwoorden, tokens of privégegevens zichtbaar laten._
+### Onderwerp en sfeer
 
-### Checkout Sprint 0
+Het onderwerp is muziekproductie in FL Studio, van beats maken tot vocals opnemen. Het gekozen sfeerwoord is **flowstate**. Zoals ik het omschreef: ‘Alleen ik en de muziek zijn op de wereld.’ Het voelt als tunnelvisie. Alle aandacht gaat naar de muziek.
 
-Beantwoord de drie vragen uit de CMD-kick-off in je eigen woorden.
+### Opdrachten en bewijs
 
-**1. Wat is een source-hostingplatform en voor welke heb ik gekozen?**
+| Opdracht | Stand van zaken |
+| --- | --- |
+| Digital Gardens verkennen | Eigen observaties en bronnen ontbreken nog. |
+| HTML-presentatie | Het [presentatiebestand](oefeningen/presentatie/index.html) staat klaar als startmodel. DLO vraagt 5 minuten, maximaal 15 slides, 10 links, 50 afbeeldingen en een intro van maximaal 180 tekens. |
+| Practicum Light & Dark Theme | Uitwerking en bewijs ontbreken nog. |
+| Visual research | Het sfeerwoord is gekozen. Beeldverzameling, bronnen en toelichting bij vier gekozen beelden ontbreken nog. |
+| Crazy 8 | Foto van de acht ideeën ontbreekt nog. |
+| Vijf mobiele homepageschetsen | Voor 20 november. Vijf varianten van dezelfde homepage in één kolom, gebaseerd op een Crazy 8-idee, met aantekeningen bij de keuzes. Foto’s ontbreken nog. |
+| Practicum kleur, gradients en patronen | Uitwerking en bewijs ontbreken nog. |
+| Reflectie | Eigen terugblik op de beeldkeuzes en het verschil tussen de schetsen ontbreekt nog. |
 
-_Jouw antwoord: leg uit wat je met GitHub doet en waarom je dat hebt gekozen._
-
-**2. Welke domeinnaam heb ik gekozen en hoe heb ik die gekoppeld aan mijn pagina?**
-
-_Jouw antwoord: beschrijf het domein bij TransIP, de DNS-aanpassingen en GitHub Pages._
-
-**3. Hoe maak ik aanpassingen aan mijn pagina en hoe publiceer ik deze op het web?**
-
-_Jouw antwoord: beschrijf VSCodium → wijzigingen opslaan → commit → push → GitHub Pages._
-
-### Zelftest en deep-dives
-
-**Zelftest op DLO:** _nog invullen na uitvoering_  
-**Gekozen deep-dive(s):** _nog invullen_  
-**Belangrijkste leerpunten:** _nog invullen_
-
-### Bronnen en links
-
-- [CMD-project op GitHub](https://github.com/ssam111/inside-the-studio)
-- [Gepubliceerde website](https://inside-the-studio.nl)
-- CMD – *Het web is voor iedereen*, S0W1 Kick-off (lesmateriaal; zelftest en deep-dives staan volgens de slides op DLO).
-
----
-
-## Sprint 1 – Digital Garden
-
-_Voeg hier later je eigen onderzoek, schetsen, keuzes en reflecties toe. Plaats de nieuwste logboeknotities boven de oudere._
+- [Sprint 1 in DLO](https://dlo.mijnhva.nl/d2l/le/lessons/759393/units/3130841)
+- [Huiswerk voor vrijdag](https://dlo.mijnhva.nl/d2l/common/dialogs/quickLink/quickLink.d2l?ou=759393&type=content&rcode=5A5AD6A8-DE14-49BB-9121-D347F48A3226-2572585)
