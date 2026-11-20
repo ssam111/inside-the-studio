@@ -1,0 +1,28 @@
+html {
+  color-scheme: light dark;
+  --background: light-dark(#fbf7e9, #171a24);
+  --color: light-dark(#292d38, #f4efe0);
+  --border-color: light-dark(#687389, #8793ae);
+  --color-h1: light-dark(#253d70, #b7cbff);
+}
+
+body {
+  max-width: 38rem;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  border: 2px solid;
+  border-color: var(--border-color);
+  background-color: var(--background);
+  color: var(--color);
+  font: 1rem/1.6 system-ui, sans-serif;
+}
+
+h1 {
+  color: var(--color-h1);
+}
+
+@media (max-width: 42rem) {
+  body {
+    margin: 1rem;
+  }
+}

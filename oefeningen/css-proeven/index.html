@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS-proeven · Inside the Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>CSS-proeven</h1>
+    <p>Inside the Studio · muziekproductie</p>
+    <div class="proeven">
+      <section>
+        <h2>Twee thema’s</h2>
+        <label><input type="checkbox" id="donker"> Donker thema</label>
+        <div class="thema"><p>Van eerste beat tot laatste mix.</p></div>
+      </section>
+      <section>
+        <h2>Responsive afbeelding</h2>
+        <picture>
+          <source media="(min-width: 42rem)" srcset="studio-breed.svg">
+          <img src="studio-detail.svg" width="320" height="180" alt="Illustratie van een mengpaneel">
+        </picture>
+      </section>
+      <section>
+        <h2>Kleur, gradients en patronen</h2>
+        <figure><div class="gloed" aria-hidden="true"></div><figcaption>Radiale gloed</figcaption></figure>
+        <figure><div class="raster" aria-hidden="true"></div><figcaption>Herhalend lijnenpatroon</figcaption></figure>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

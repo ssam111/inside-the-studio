@@ -1,0 +1,80 @@
+html {
+  color-scheme: light dark;
+  --achtergrond: light-dark(#f9f5ea, #161a24);
+  --tekst: light-dark(#242a38, #eff1f8);
+  --rand: light-dark(#59647a, #a5b1ca);
+  --blauw: #405f99;
+  --nacht: #161a24;
+  --lichtblauw: #afd1fa;
+}
+
+body {
+  margin: 0;
+  background: var(--achtergrond);
+  color: var(--tekst);
+  font: 1rem/1.5 system-ui, sans-serif;
+}
+
+main {
+  width: min(68rem, calc(100% - 2rem));
+  margin: 2rem auto;
+}
+
+.proeven {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+
+section {
+  border: 1px solid var(--rand);
+  padding: 1rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.thema {
+  color-scheme: light;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--achtergrond);
+  color: var(--tekst);
+  border: 1px solid var(--rand);
+}
+
+section:has(#donker:checked) .thema {
+  color-scheme: dark;
+}
+
+picture, img {
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0 0 1rem;
+}
+
+.gloed, .raster {
+  height: 5rem;
+}
+
+.gloed {
+  background: radial-gradient(ellipse, var(--lichtblauw), var(--blauw), var(--nacht));
+}
+
+.raster {
+  background: repeating-linear-gradient(135deg, var(--nacht) 0 12px, var(--blauw) 12px 14px);
+}
+
+@media (min-width: 42rem) {
+  .proeven {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
